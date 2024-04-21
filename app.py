@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/predict": {"origins": "*"}})  # Explicitly allowing all origins for the /predict route
 
 # Load the model
-model_path = 'model.pth'  # Specify the path to your saved model weights
+model_path = 'model2.pth'  # Specify the path to your saved model weights
 model = models.resnet50()  # Initialize the ResNet50 model
 num_classes = 184  # Set the number of your output classes
 model.fc = nn.Linear(model.fc.in_features, num_classes)  # Adjust the fully connected layer
