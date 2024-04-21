@@ -1,0 +1,7 @@
+io
+base64
+flask
+torch
+torchvision
+PIL
+flask_cors
