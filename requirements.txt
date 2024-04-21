@@ -1,5 +1,3 @@
-io
-base64
 flask
 torch
 torchvision
